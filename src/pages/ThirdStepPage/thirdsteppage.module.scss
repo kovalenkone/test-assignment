@@ -1,0 +1,24 @@
+@import './../../sass/variables';
+
+.form fieldset {
+  margin-bottom: 80px;
+}
+
+.textarea {
+  padding: 12px;
+  width: 100%;
+  height: 84px;
+  border: 1px solid $grey16;
+  border-radius: 4px;
+  color: $grey48;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
